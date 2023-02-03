@@ -1,0 +1,61 @@
+#header{
+    float: left;
+}
+#logo_sec{
+    width: 30%;
+    float:left;
+    height: 50px;
+}
+#logo{
+    margin-top: 24.08px;
+}
+#search_sec{
+    // background-color: black;
+    width: 40%;
+    float:left;
+    height: 50px;
+}
+#search{
+    height: 24px;
+    margin-top: 47px;
+    width:75%;
+    border-style:none;
+    border-bottom:solid 1px #919191;
+    border-collapse:collapse;
+}
+
+#search:focus{
+    outline: none;
+}
+#oth_fun_sec{
+    // background-color: yellow;
+    width: 30%;
+    float:left;
+    height: 50px;
+}
+.header_itm{
+    display: flex;
+    justify-content : center;
+}
+#signin{
+    margin-top: 49.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+#signup{
+    margin-top: 49.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;  
+}
+
+#signup_link{
+    color: black;
+    text-decoration: none;  
+}
+#signin_link{
+    color: black;
+    text-decoration: none;  
+}
+
