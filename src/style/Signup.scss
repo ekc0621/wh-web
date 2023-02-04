@@ -1,0 +1,73 @@
+#container{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 120px;
+    width:29%;
+    margin-left:35.5%;
+    margin-right:35.5%;
+}
+.signin_itm{
+    margin-top: 5px;    
+    margin-bottom: 5px;
+}
+#logo{
+    margin-top: 60px;
+}
+#inputid{
+    margin-top: 40px;
+    width:50%;
+    height: 30px;
+    border:solid 1px #919191;
+    border-radius: 5px;
+}
+#inputid:focus{
+    outline: none;
+}
+#inputpw{
+    width:50%;
+    height: 30px;
+    border:solid 1px #919191;
+    border-radius: 5px;
+}
+#inputpw:focus{
+    outline: none;
+}
+#reinputpw{    
+    width:50%;
+    height: 30px;
+    border:solid 1px #919191;
+    border-radius: 5px;
+}
+#reinputpw:focus{
+    outline: none;
+}
+#inputemail{
+    width:50%;
+    height: 30px;
+    border:solid 1px #919191;
+    border-radius: 5px;
+}
+#inputemail:focus{
+    outline: none;
+}
+#inputage{
+    width:50%;
+    height: 30px;
+    border:solid 1px #919191;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#inputage:focus{
+    outline: none;
+}
+#logbtn{
+    width:50%;
+    background-color: #000000;
+    color:white;    
+    border-style: none;
+    border-radius: 3px;
+    border: 1px solid #919191;
+    height: 25px;
+    margin-bottom: 20px;
+}

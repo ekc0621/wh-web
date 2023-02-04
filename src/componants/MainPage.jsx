@@ -4,10 +4,11 @@ import Header from "./Header";
 import Navbar from "./Navbar";
 function MainPage(){
     return(
-        <div id="Mainpage">
+        <div id="main">
             <Header/>
             <Navbar/>
         </div>
+
     );
 }
 export default MainPage;
