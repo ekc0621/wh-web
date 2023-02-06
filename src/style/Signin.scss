@@ -1,4 +1,4 @@
-#container{
+#container_signin{
     text-align: center;
     border: 1px solid black;
     border-radius: 25px;
@@ -7,23 +7,24 @@
     margin-left:35.5%;
     margin-right:35.5%;
 }
+
 .signin_itm{
     margin-top: 5px;
     margin-bottom: 5px;
 }
-#logo{
-    margin-top: 60px;
-}
+
 #input_id{
     margin-top: 40px;
     width:50%;
     height: 30px;
     border:solid 1px #919191;
     border-radius: 5px;
+    &:focus{
+        outline: none;
+    }
 }
-#input_id:focus{
-    outline: none;
-}
+
+
 #input_pw{
     width:50%;
     height: 30px;
