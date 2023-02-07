@@ -1,3 +1,7 @@
+$border_set_signup : 1px solid #919191;
+*{
+    text-decoration: none;
+}
 #container_signup{
     text-align: center;
     border: 1px solid black;
@@ -16,56 +20,61 @@
     margin-top: 40px;
     width:50%;
     height: 30px;
-    border:solid 1px #919191;
+    border:$border_set_signup;
     border-radius: 5px;
+    &:focus{
+        outline: none;
+    }
 }
-#inputid:focus{
-    outline: none;
-}
+
 #inputpw{
     width:50%;
     height: 30px;
-    border:solid 1px #919191;
+    border:$border_set_signup;
     border-radius: 5px;
-}
-#inputpw:focus{
+    &:focus{
     outline: none;
+    }
 }
+
 #reinputpw{    
     width:50%;
     height: 30px;
-    border:solid 1px #919191;
+    border:$border_set_signup;
     border-radius: 5px;
-}
-#reinputpw:focus{
+    &:focus{
     outline: none;
+    }
 }
+
 #inputemail{
     width:50%;
     height: 30px;
-    border:solid 1px #919191;
+    border:$border_set_signup;
     border-radius: 5px;
-}
-#inputemail:focus{
+    &:focus{
     outline: none;
+    }
 }
+
 #inputage{
     width:50%;
     height: 30px;
-    border:solid 1px #919191;
+    border:$border_set_signup;
     border-radius: 5px;
     margin-bottom: 20px;
-}
-#inputage:focus{
+    &:focus{
     outline: none;
+    }
 }
+
 #logbtn{
     width:50%;
-    background-color: #000000;
+    background-color: black;
     color:white;    
     border-style: none;
     border-radius: 3px;
-    border: 1px solid #919191;
+    border:$border_set_signup;
     height: 25px;
     margin-bottom: 20px;
 }

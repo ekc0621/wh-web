@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 #header{
     float: left;
 }
@@ -52,10 +55,12 @@
 
 #signup_link{
     color: black;
-    text-decoration: none;  
+    text-decoration: none;
+    font-size: 1.7vh;  
 }
 #signin_link{
     color: black;
     text-decoration: none;  
+    font-size: 1.7vh;  
 }
 

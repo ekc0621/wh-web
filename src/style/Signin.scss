@@ -1,3 +1,7 @@
+$border_set_signin : 1px solid #919191;
+*{
+    text-decoration: none;
+}
 #container_signin{
     text-align: center;
     border: 1px solid black;
@@ -17,31 +21,31 @@
     margin-top: 40px;
     width:50%;
     height: 30px;
-    border:solid 1px #919191;
+    border:$border_set_signin;
     border-radius: 5px;
     &:focus{
         outline: none;
     }
 }
 
-
 #input_pw{
     width:50%;
     height: 30px;
-    border:solid 1px #919191;
+    border:$border_set_signin;
     border-radius: 5px;
     margin-bottom: 50px;
+    &:focus{
+        outline: none;
+    }
 }
-#input_pw:focus{
-    outline: none;
-}
+
 #log_btn{
     width:50%;
-    background-color: #000000;
+    background-color: black;
     color:white;    
     border-style: none;
     border-radius: 3px;
-    border: 1px solid #919191;
+    border:$border_set_signin;
     height: 25px;
 }
 #nav_btn{
@@ -50,7 +54,7 @@
     background-color: green;
     border-style: none;
     border-radius: 3px;
-    border: 1px solid #919191;
+    border: $border_set_signin;
     height: 25px;
 }
 #goo_btn{
@@ -69,7 +73,7 @@
     border-style: none;
     border-radius: 3px;
     height: 25px;
-    border: 1px solid #919191;
+    border: $border_set_signin;
     margin-bottom: 8px;
 }
 .oth_func{
