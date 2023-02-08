@@ -5,7 +5,7 @@ import "../style/Signin.scss";
 export default function Signin(){
     return(
         <div id = "container_signin">
-            <div id = "logo">
+            <div id = "logo_in">
                 <h2> 대충 로고</h2>
             </div>
             <div id = "id">

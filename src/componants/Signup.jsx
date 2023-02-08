@@ -4,7 +4,7 @@ import "../style/Signup.scss";
 function Footer(){
     return(
         <div id = "container_signup">
-        <div id = "logo">
+        <div id = "logo_up">
             <h2> 대충 로고</h2>
         </div>
         <div id = "id">

@@ -6,7 +6,7 @@ export default function Header(){
             <div id="Header">
                 <div id = "logo_sec" className = "header_itm">
                     <div id ="logo">
-                        <h2>대충 로고</h2>
+                        <NavLink to="/" class = "header_logo"><h2>대충 로고</h2></NavLink>
                     </div>
                 </div>
                 <div id = "search_sec" className = "header_itm">
