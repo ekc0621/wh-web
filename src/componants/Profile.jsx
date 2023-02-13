@@ -1,9 +1,14 @@
 import React from "react";
 import "../style/Profile.scss";
+import Header from "./Header";
+import Navbar from "./Navbar";
 
 function Profile(){
     return(
-        <h2>프로필</h2>
+        <div id="main">
+            <Header/>
+            <Navbar/>
+        </div>
     );
 }
 export default Profile;

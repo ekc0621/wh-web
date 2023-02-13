@@ -1,8 +1,15 @@
 import React from "react";
 import "../style/Community.scss";
+import Header from "./Header";
+import Navbar from "./Navbar";
 
 export default function Community(){
-    return(
-        <h2>커뮤니티</h2>
-    );
-}
+    return (
+        <div id="main">
+            <Header/>
+            <Navbar/>
+        </div>
+      );
+    }
+    
+    
